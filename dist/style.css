@@ -1,0 +1,36 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -ms-grid-rows: 50px 10px 1fr 10px 50px;
+  -ms-grid-columns: 200px 10px 1fr;
+      grid-template: "header header" 50px "aside  main" 1fr "aside  footer" 50px/200px 1fr;
+}
+.container header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+  background-color: aquamarine;
+}
+.container aside {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: aside;
+  background-color: #ea5b54;
+}
+.container main {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: main;
+  background-color: bisque;
+}
+.container footer {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: footer;
+  background-color: brown;
+}
+
+/*# sourceMappingURL=/style.css.map */

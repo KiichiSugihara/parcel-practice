@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":";;;AAAA,aACA,QAAA,gBADAA,QAAQC,IAAI","file":"parcel-practice.3db50945.js","sourceRoot":"..","sourcesContent":["console.log('hello world')\nimport './style.scss'\n"]}

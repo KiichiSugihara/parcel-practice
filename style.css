@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template: 'header header' 50px 'aside  main' 1fr 'aside  footer' 50px / 200px 1fr;
+}
+
+.container header {
+  grid-area: header;
+  background-color: aquamarine;
+}
+
+.container aside {
+  grid-area: aside;
+  background-color: #ea5b54;
+}
+
+.container main {
+  grid-area: main;
+  background-color: bisque;
+}
+
+.container footer {
+  grid-area: footer;
+  background-color: brown;
+}
